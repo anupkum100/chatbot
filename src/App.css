@@ -1,38 +1,61 @@
 .App {
-  text-align: center;
+  padding: 10px;
+  text-align: right;
+}
+.message-container{
+  padding-bottom: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-footer button {
+  background-color: transparent;
+  color: green;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  border: none;
+  line-height: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.message-list {
+  font-size: 10px;
+  color: #666;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
 }
 
-.App-link {
-  color: #61dafb;
+.typing-text {
+  color: #ccc;
+  font-size: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.message {
+  box-shadow: 1px 1px 5px #ccc;
+  border-radius: 10px;
+  padding: 5px 10px;
+  line-height: 15px;
+  margin-right: 5px;
+}
+
+.text-left {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 5px 50px 5px 5px;
+  box-shadow: 1px 1px 5px #ccc;
+  height: 30px;
+  border: none;
+  width: 85%;
+  border: 1px solid #ccc;
 }
