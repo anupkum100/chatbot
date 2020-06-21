@@ -2,7 +2,7 @@
   padding: 10px;
   text-align: right;
 }
-.message-container{
+.message-container {
   padding-bottom: 50px;
 }
 
@@ -26,7 +26,7 @@
   font-size: 10px;
   color: #666;
   display: flex;
-  justify-content: flex-end;
+  direction: rtl;
 }
 
 .typing-text {
@@ -35,16 +35,22 @@
 }
 
 .message {
+  background-color: rgb(177, 252, 252);
   box-shadow: 1px 1px 5px #ccc;
   border-radius: 10px;
   padding: 5px 10px;
   line-height: 15px;
-  margin-right: 5px;
+  margin: 0 5px;
+}
+
+.message-list.text-left span {
+  background-color: bisque;
 }
 
 .text-left {
   justify-content: flex-start;
   text-align: left;
+  direction: ltr;
 }
 
 input {
