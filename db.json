@@ -1,0 +1,79 @@
+{
+  "messages": [
+    {
+      "id": 1,
+      "sender": "Anup",
+      "value": "Hi"
+    },
+    {
+      "id": 2,
+      "sender": "Honey Singh ",
+      "value": "Yo Yo Honey Sing "
+    },
+    {
+      "id": 3,
+      "sender": "Anup",
+      "value": "😂"
+    },
+    {
+      "id": 4,
+      "sender": "Honey Singh ",
+      "value": "yes dikh raha hai"
+    },
+    {
+      "id": 5,
+      "sender": "Anup",
+      "value": "Kya baat hai "
+    },
+    {
+      "id": 6,
+      "sender": "Anup",
+      "value": "Kisi ko v add kar sakte ho link bhej k 😂"
+    },
+    {
+      "id": 7,
+      "sender": "Ajit",
+      "value": "Ab dikha"
+    },
+    {
+      "id": 8,
+      "sender": "Ajit",
+      "value": "We socket use kia hai?"
+    },
+    {
+      "id": 9,
+      "sender": "Anup",
+      "value": "Ajit ka msg aaya "
+    },
+    {
+      "id": 10,
+      "sender": "Sid",
+      "value": "Hello baby "
+    },
+    {
+      "id": 11,
+      "sender": "test",
+      "value": "hello"
+    },
+    {
+      "id": 12,
+      "sender": "Anup",
+      "value": "Hi Sid "
+    },
+    {
+      "id": 13,
+      "sender": "Anup",
+      "value": "Hello test "
+    },
+    {
+      "id": 14,
+      "sender": "Sid",
+      "value": "Hey dude "
+    },
+    {
+      "id": 15,
+      "sender": "Anup",
+      "value": "🥳🥳🥳"
+    }
+  ]
+}

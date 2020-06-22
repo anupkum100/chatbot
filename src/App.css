@@ -2,14 +2,58 @@
   padding: 10px;
   text-align: right;
 }
+
+header {
+  background-color: turquoise;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  line-height: 40px;
+}
+
+.login-container {
+  height: 100px;
+  background: darkturquoise;
+  width: 90%;
+  margin: 100px auto;
+  box-shadow: 2px 4px 7px #ccc;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.login-container input {
+  width: 50%;
+  padding: 5px 50px 5px 5px;
+  box-shadow: 1px 1px 5px #ccc;
+  height: 30px;
+  border: none;
+  display: block;
+  margin: auto;
+}
+
+.login-container button {
+  background-color: transparent;
+  color: green;
+  border: none;
+  line-height: 35px;
+}
+
 .message-container {
   padding-bottom: 50px;
+  margin-top: 50px;
 }
 
 .App-footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  background-color: #fff;
+  height: 40px;
 }
 
 .App-footer button {
@@ -43,6 +87,12 @@
   margin: 0 5px;
 }
 
+.senderName {
+  position: absolute;
+  left: -10px;
+  top: -10px;
+}
+
 .message-list.text-left span {
   background-color: bisque;
 }
@@ -51,17 +101,19 @@
   justify-content: flex-start;
   text-align: left;
   direction: ltr;
+  position: relative;
 }
 
-input {
-  width: 100%;
+.App-footer input {
+  width: 90%;
+  display: block;
+  margin: auto;
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 5px;
   padding: 5px 50px 5px 5px;
   box-shadow: 1px 1px 5px #ccc;
   height: 30px;
   border: none;
   width: 85%;
-  border: 1px solid #ccc;
 }
