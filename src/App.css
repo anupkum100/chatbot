@@ -13,6 +13,7 @@ header {
   text-align: center;
   color: #fff;
   line-height: 40px;
+  z-index: 1;
 }
 
 .login-container {
@@ -85,12 +86,17 @@ header {
   padding: 5px 10px;
   line-height: 15px;
   margin: 0 5px;
+  direction: ltr;
 }
 
 .senderName {
   position: absolute;
   left: -10px;
   top: -10px;
+  background: #666;
+  padding: 2px;
+  border-radius: 5px;
+  color: #fff;
 }
 
 .message-list.text-left span {
@@ -110,10 +116,10 @@ header {
   margin: auto;
   position: fixed;
   left: 0;
-  bottom: 5px;
-  padding: 5px 50px 5px 5px;
+  bottom: 2px;
+  padding: 5px;
   box-shadow: 1px 1px 5px #ccc;
   height: 30px;
   border: none;
-  width: 85%;
+  width: 100%;
 }
